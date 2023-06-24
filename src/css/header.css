@@ -1,0 +1,42 @@
+#headerSection {
+    background: var(--colpink);
+    position: fixed;
+    z-index: 4;
+    box-shadow: 0 4px 4px #333;
+}
+
+#headerContainer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a h1 {
+    letter-spacing: 1px;
+    color: var(--colwhite);
+}
+
+.navHead {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navHead a {
+    color: var(--colwhite);
+    margin-left: 32px;
+    border-bottom: 3px solid transparent;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.navHead a:hover {
+    border-color: white;
+}
