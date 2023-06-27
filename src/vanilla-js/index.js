@@ -3,7 +3,7 @@
 window.addEventListener("scroll", () => {
   let scroll = window.pageYOffset;
 
-  if (scroll > 260) {
+  if (scroll > 350) {
     let gbCategories = document.querySelectorAll(".gbCategories");
 
     for (let gbCategorie of gbCategories) {

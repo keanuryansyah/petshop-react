@@ -2,11 +2,15 @@ import catCategories from "../all-image/catCategories.jpg";
 import dogCategories from "../all-image/dogCategories.jpg";
 import fishCategories from "../all-image/fishCategories.jpg";
 import reptileCategories from "../all-image/reptileCategories.jpg";
-import "../vanilla-js/index";
-import "../vanilla-js/functions";
 
-const Homepages = () => {
+import HeaderComps from "./Header-comps";
+import CardComps from "./card-prod-comps";
 
+
+
+const HomepageComps = () => {
+
+    
     let serviceCards = [
         {
             titleCard : "Pet clinic",
@@ -36,10 +40,13 @@ const Homepages = () => {
     
     return (
         <>
+
+        <HeaderComps />
+
             <main>
                 <section id="mainSectionHero">
                     <div id="heroContainer" className="container">
-                        <div className="heroContentPr animate__animated animate__fadeInRight animate__delay-1s">
+                        <div className="heroContentPr animate__animated animate__fadeInRight">
                             <div className="heroContentChild">
                                 <h2>Love your pet by taking care of it at Petshop-me!</h2>
                                 <p>Trust your pet to Petshop-me, Because the best care and the best products are only in Petshop-me.</p>
@@ -54,24 +61,29 @@ const Homepages = () => {
                 <section id="petCategoriesSection">
                     <div id="petCategoriesContainer" className="container">
                         <div className="titleCategories">
-                            <h2>- Your pets -</h2>
+                            <div className="beforeCat"></div>
+                            <h2>Your pets</h2>
                         </div>
                         <div className="petCategoriesBox">
                             <div className="catCategories gbCategories">
                                 <img src={catCategories} alt="" />
-                                <a href="">Cat</a>
+                                <h3>Cat</h3>
+                                <a href="#"></a>
                             </div>
                             <div className="dogCategories gbCategories">
                                 <img src={dogCategories} alt="" />
-                                <a href="">Dog</a>
+                                <h3>Dog</h3>
+                                <a href=""></a>
                             </div>
                             <div className="fishCategories gbCategories">
                                 <img src={fishCategories} alt="" />
-                                <a href="">Fish</a>
+                                <h3>Fish</h3>
+                                <a href=""></a>
                             </div>
                             <div className="reptileCategories gbCategories">
                                 <img src={reptileCategories} alt="" />
-                                <a href="">Reptile</a>
+                                <h3>Reptile</h3>
+                                <a href=""></a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +102,8 @@ const Homepages = () => {
                     <div id="serviceContainer" className="container">
 
                         <div className="serviceTitle">
-                            <h2>- Service available -</h2>
+                            <div className="beforeService"></div>
+                            <h2>Service available</h2>
                         </div>
 
                         <div className="serviceCardWr">
@@ -112,11 +125,16 @@ const Homepages = () => {
                     </div>
                 </section>
 
+                <CardComps />
+                
+
             </main>
+
+
 
         </>
     )
 
 }
 
-export default Homepages;
+export default HomepageComps

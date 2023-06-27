@@ -1,12 +1,11 @@
-import Headers from "../my-components/Header-comps";
-import Homepages from "../my-components/Homepage-comps";
+import HomepageComps from "../my-components/Homepage-comps";
 
 
 const Homepage = () => {
     return (
         <>
-            <Headers />
-            <Homepages />
+            <HomepageComps />
+
         </>
     )
     

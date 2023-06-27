@@ -1,12 +1,12 @@
-import Headers from "../my-components/Header-comps";
+import HeaderComps from "../my-components/Header-comps";
 
-const Abouts = () => {
+const AboutComps = () => {
     return (
         
         <>
         
 
-        <Headers />
+        <HeaderComps />
         <h1>Hello ini about</h1>
         
         
@@ -17,4 +17,4 @@ const Abouts = () => {
     )
 }
 
-export default Abouts;
+export default AboutComps;

@@ -1,4 +1,6 @@
-const Headers = () => {
+import "../css/Global.css";
+
+const HeaderComps = () => {
     return (
         <>
 
@@ -6,7 +8,7 @@ const Headers = () => {
                 <section id="headerSection">
                     <div id="headerContainer" className="container">
                         <div className="logo">
-                            <a href="">
+                            <a href="/">
                                 <h1>PETSHOP-ME!</h1>
                             </a>
                         </div>
@@ -27,4 +29,4 @@ const Headers = () => {
     )
 }
 
-export default Headers;
+export default HeaderComps;

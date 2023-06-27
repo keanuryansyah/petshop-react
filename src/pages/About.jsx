@@ -1,8 +1,8 @@
-import Abouts from "../my-components/About-comps";
+import AboutComps from "../my-components/About-comps";
 
 const About = () => {
     return (
-        <Abouts />
+        <AboutComps />
     )
 }
 

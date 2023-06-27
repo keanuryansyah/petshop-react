@@ -1,0 +1,46 @@
+#sectionLogin {
+    padding-top: 80px;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginCtn {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background: #333;
+    width: 700px;
+    padding: 5rem 1rem;
+
+}
+
+.loginTitle {
+    color: #fff;
+}
+
+.loginTitle p {
+    color: var(--colorange);
+}
+
+.loginBox ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+.loginBox ul li label {
+    color: #fff;
+}
+
+.loginBox ul li input {
+    padding: .6rem;
+    width: 50%;
+}
+
+.loginBox ul li button {
+    padding: .6rem 4rem;
+}
