@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-body {
+/* body {
     height: 5000px;
-}
+} */
 
 div,
-span {
+span,
+a {
     box-sizing: border-box;
 }
 
@@ -63,10 +64,12 @@ span {
     line-height: 1.6;
 }
 
-a {
+a,
+li {
     font-family: var(--linkfont);
     font-size: 16px;
     color: var(--colwhite);
+    list-style: none;
 }
 
 .buttonWr {
@@ -82,15 +85,15 @@ a {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: -6px 6px 2px #000;
+    box-shadow: -6px 6px 1px #f8873c;
     transition: .8s;
     -webkit-transition: .8s;
     -moz-transition: .8s;
     -ms-transition: .8s;
     -o-transition: .8s;
-    background: var(--colorange);
-    border-bottom: 2px solid #333;
-    border-left: 2px solid #333;
+    background: linear-gradient(to bottom, var(--colorange), darkorange);
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
     color: var(--colwhite);
 }
 

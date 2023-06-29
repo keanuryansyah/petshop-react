@@ -7,7 +7,7 @@ const CardComps = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:3003/dataCat")
+        axios.get("http://localhost:3000/dataCat")
         .then((response) => {
             
             setData(response.data);
@@ -18,6 +18,9 @@ const CardComps = () => {
             console.log(error);
         })
     }, [])
+      
+      
+    
 
     return (
         <>
@@ -44,8 +47,8 @@ const CardComps = () => {
                                             <span>$</span>
                                             <span>{cat.price_products + "0"}</span>
                                         </div>
-                                        <div className="buttonWr">
-                                            <a href="">Add to bucket</a>
+                                        <div className="buttonWr buttonPink">
+                                            <a href="#">Add to bucket</a>
                                         </div>
                                     </div>
                                 </div>

@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    color: #000;
 }
 
 .cardTitleBefore {
@@ -67,14 +66,28 @@
 .bottomCard {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-    background: #d3cfcf;
+    gap: 1rem;
+    background: #3a2323;
     padding: 1rem;
 }
 
 .bottomCard h3 {
-    color: #000;
+    color: #fff;
 }
 
+.bottomCard p {
+    color: #fff;
+}
+
+.priceProduct span {
+    color: #fff;
+}
+
+.buttonPink a { 
+    background: linear-gradient(to bottom, green,darkgreen);
+    box-shadow: -6px 6px 1px rgb(23, 112, 39);
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
 
 

@@ -1,0 +1,37 @@
+#footerSection {
+    padding: 5rem 0;
+    background: #333;
+} 
+
+#footerCtn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    color: #fff;
+}
+
+.topLeftFooter h2 {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.topLeftFooter p:last-child {
+    color: gold;
+    border-bottom: 1px solid gold;
+}
+
+.gbFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gbFooter h3 {
+    color: var(--colorange);
+}
+
+.gbFooter ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

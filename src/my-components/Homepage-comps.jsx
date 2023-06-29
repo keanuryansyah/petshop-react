@@ -5,6 +5,7 @@ import reptileCategories from "../all-image/reptileCategories.jpg";
 
 import HeaderComps from "./Header-comps";
 import CardComps from "./card-prod-comps";
+import FooterComps from "./Footer-comps";
 
 
 
@@ -126,6 +127,7 @@ const HomepageComps = () => {
                 </section>
 
                 <CardComps />
+                <FooterComps />
                 
 
             </main>

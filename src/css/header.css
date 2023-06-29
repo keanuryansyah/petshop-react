@@ -10,6 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    width: 50%;
 }
 
 .logo a h1 {
@@ -17,13 +22,24 @@
     color: var(--colwhite);
 }
 
-.navHead {
-    height: 100px;
+nav {
+    position: relative;
+    width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
-.navHead a {
+.navHeadLeft {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.navHeadLeft a {
     color: var(--colwhite);
     margin-left: 32px;
     border-bottom: 3px solid transparent;
@@ -37,6 +53,22 @@
     -o-transition: all .3s;
 }
 
-.navHead a:hover {
+.mobileNav {
+    margin-left: 32px;
+    font-size: 2em;
+    fill: #fff;
+    height: 100%;
+    display: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navHeadLeft a:hover {
     border-color: white;
+}
+
+.closeMenu{
+    color: #fff;
+    display: none;
+    cursor: pointer;
 }
