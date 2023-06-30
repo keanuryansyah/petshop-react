@@ -6,12 +6,14 @@ const app = express();
 app.use(cors());
 
 let host = "localhost";
-let user = "root";
-let database = "petshop_db";
+let user = "kenumy_react1";
+let password = "J9XSQqp555Hl";
+let database = "kenumy_react1";
 
 const conn = mysql.createConnection({
   host: host,
   user: user,
+  password: password,
   database: database,
 });
 

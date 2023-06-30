@@ -30,7 +30,10 @@ const CardComps = () => {
               return (
                 <div className="cardChild" key={cat.id_products}>
                   <div className="topCard">
-                    <img src={`src/all-image/${cat.image_products}`} alt="" />
+                    <img
+                      src={`assets/all-image/${cat.image_products}`}
+                      alt=""
+                    />
                   </div>
                   <div className="bottomCard">
                     <h3>{cat.name_products}</h3>
