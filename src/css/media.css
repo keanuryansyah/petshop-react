@@ -241,6 +241,11 @@
         overflow: hidden;
     }
 
+    .gbCategories {
+        height: 350p !important;
+    }
+
+
 }
 
 @media screen and (max-width : 275px) {

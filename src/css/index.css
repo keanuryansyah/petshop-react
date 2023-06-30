@@ -143,11 +143,6 @@ main {
 .gbCategories {
     height: 250px;
     position: relative;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,11 +231,6 @@ main {
     -moz-transition: .8s;
     -ms-transition: .8s;
     -o-transition: .8s;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
 }
 
 .gbCategories:hover::after {
